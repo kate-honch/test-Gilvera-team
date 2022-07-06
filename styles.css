@@ -1,0 +1,78 @@
+.card {
+  position: relative;
+  width: 500px;
+  height: 520px;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  color: #000000;
+  background-color: white;
+}
+
+.card__block {
+  margin-top: 10px;
+}
+
+.card__select {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-color: grey;
+}
+
+.card__buy {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+.card__photo {
+  width: 300px;
+}
+
+.card__title {
+  margin: 10px 0 10px 0;
+  font-weight: 600;
+}
+
+.card__new { 
+  width: 70px;
+  margin: 0 auto;
+  font-size: 15px;
+  border: 2px solid rgb(40, 199, 40);
+  border-radius: 50%;
+  color: rgb(40, 199, 40) ;
+}
+
+.card__new:hover {
+  color: white;
+  background-color: rgb(40, 199, 40);
+}
+
+.card__describtion {
+  margin: 0;
+  color: grey;
+}
+
+.card__price {
+  margin: 0;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 25px rgb(0 0 0 / 10%);
+  box-shadow: grey;
+  cursor: pointer;
+}
+
+.card:hover > .card__block {
+  display: block;
+}
